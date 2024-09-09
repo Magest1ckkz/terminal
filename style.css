@@ -1,0 +1,12 @@
+body {
+    color: #3dc12f;
+    font-family: "Liberation Mono", "Consolas", monospace;
+    background-color: black;
+    font-size: 13px;
+}
+
+input {
+    color: #3dc12f;
+    font-family: "Liberation Mono", "Consolas", monospace;
+    background-color: black;
+}
