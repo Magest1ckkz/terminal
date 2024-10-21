@@ -13,7 +13,7 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 						break;
 
 					 case 'help':
-                        output.innerHTML = '<p>MageTerminal Help Page (0.0.4)<br><br>help - Shows this message.<br>test - A testing string.<br>date - Output the current date and time.<br>exit - Exit the terminal and return to the main page.</p>';
+                        output.innerHTML = '<p>MageTerminal Help Page (0.0.5)<br><br>help - Shows this message.<br>test - A testing string.<br>date - Output the current date and time.<br>magest1ckkz-os - Log into an experimental GUI.<br>exit - Exit the terminal and return to the main page.</p>';
 					    break;
 
                     case 'date':
@@ -38,6 +38,10 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 
                 case 'exit':
                     location.href = "https://magest1ckkz.github.io/";
+                    break;
+
+                case 'magest1ckkz-os':
+                    location.href = "https://magest1ckkz.github.io/Magest1ckkzOS/";
                     break;
 
 					default:
